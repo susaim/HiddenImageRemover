@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>HiddenImageRemover</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>HiddenImageRemover</h1>
+  <input type="file" id="imageInput" accept="image/*" />
+  <div class="options">
+    <label><input type="checkbox" id="pixelShift" checked /> 像素偏移</label>
+    <label><input type="checkbox" id="moire" /> 摩尔纹</label>
+  </div>
+  <button id="processBtn">处理图片</button>
+  <canvas id="canvas"></canvas>
+  <a id="downloadLink" download="processed.png">下载处理后的图片</a>
+  <script src="main.js"></script>
+</body>
+</html>

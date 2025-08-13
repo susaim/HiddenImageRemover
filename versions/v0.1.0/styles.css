@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  padding: 1rem;
+}
+
+#canvas {
+  display: block;
+  max-width: 100%;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+}
+
+.options {
+  margin: 0.5rem 0;
+}
